@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Ramgopal's college life and friendships with a beautiful showcase of friends, memories, and their unique qualities. A dedicated page for engineer friends.">
+    <meta name="keywords" content="friends, college life, my friends, Ramgopal, iammrengineer, engineer friends, friendships, memorable moments">
+    <meta name="author" content="Ramgopal Prajapati">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Ramgopal's College Life and Friends" />
+    <meta property="og:description" content="Dive into the world of friendships and college life with Ramgopal. Meet amazing engineer friends and explore their unique personalities!" />
+    <meta property="og:image" content="girl.png" />
+    <meta property="og:url" content="https://Ramgopal-prajapati.github.io/iammrengineer/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ramgopal's College Life and Friends">
+    <meta name="twitter:description" content="Showcasing the unforgettable college life and friendships of Ramgopal Prajapati.">
+    <meta name="twitter:image" content="girl.png">
+    <title>Ramgopal's Friends and College Life</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- Font Awesome for icons -->
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('/friends/imges/a.webp') repeat;
+            color: #333;
+            position: relative;
+            overflow-x: hidden;
+            background-size: contain/cover;
+        }
+       
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+        
+        header {
+            background: rgba(82, 24, 163, 0.29);
+            color: white;
+            padding: 100px 20px; /* Reduced padding for smaller screens */
+            text-align: center;
+            border-bottom: 2px solid #fff;
+        }
+        
+        header img {
+            width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: -13px;
+  margin-top: -85px;
+        }
+        
+        header h1 {
+            margin: 10px 0;
+            font-size: 22px;
+        }
+        
+        header .typed {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        header p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        
+        header .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        header .social-icons a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        
+        main {
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        main .friend {
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #eda9ac29, #ebcec652);
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+        }
+        
+        main .friend img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 15px;
+            animation: bounce 2s infinite;
+
+            
+        }
+        
+        main .friend h2 {
+            margin: 0px;
+  font-size: 25px;
+  color: #54ff07;
+        }
+        
+        main .friend p {
+            margin: 5px 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #040202;
+        }
+        
+        main .friend .social-icons {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+
+        }
+        
+        main .friend .social-icons a {
+            text-decoration: none;
+            color:#dd0b0b;
+            font-size: 50px;
+            background: #e4d7e400;
+  border-radius: 28%;
+            padding: 10px;
+            transition: transform 0.3s;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        
+        }
+        
+        /* Media Queries for Smaller Devices */
+        @media (max-width: 768px) {
+            header {
+                padding: 50px 20px;
+            }
+        
+            header h1 {
+                font-size: 18px;
+            }
+        
+            header p {
+                font-size: 12px;
+            }
+        
+            main .friend {
+                flex: 1 1 100%; /* Single column for small screens */
+                max-width: 80%;
+            }
+        
+            main .friend img {
+                width: 90px;
+                height: 90px;
+            }
+        
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+
+
+
+
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background: url('a.webp') repeat;
+                color: #333;
+                position: relative;
+                overflow-x: hidden;
+                background-size: contain/cover;
+            }
+           
+            header {
+                padding: 30px 10px;
+            }
+        
+            header h1 {
+                font-size: 16px;
+            }
+        
+            header p {
+                font-size: 10px;
+            }
+        
+            main .friend img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+
+
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+       
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .friend h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .friend .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+        .friend p::after {
+            content: " 🌹❤️😊";
+        }
+        .m::after {
+            content: " 🌹❤️😊";
+        }
+
+        .typed::after {
+            content: " ❤️";
+        }
+
+         h3::after {
+            content: " 🌹❤️😊❤️";
+        }
+        h3::before {
+            content: " 🌹❤️😊❤️";
+        }
+
+
+
+
+        .fab{
+            font-weight: 800;
+            color: #fc6b6b;
+            font-size: 49px;
+           
+        }
+
+        .fab:hover {
+            transform: scale(1.2);
+        }
+        #b:hover {
+            transform: scale(1.2);
+        }
+        
+#b{
+    font-weight: 800;
+    color: #000000;
+    font-size: 50px;
+    
+}
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/friends/imges/girl.png" alt="Your Profile">
+        <h1>Ramgopal Prajapati</h1>
+            <h5 class="m">Birthday: 21 February</h5>
+        <span class="typed"></span>
+        <h3>Hi ! Here's a little about me and lots about my amazing friends.<br>
+        It's all about my college friends and school friends ("Actually it's my Wealth")</h3>
+        <div class="social-icons">
+            <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <i class="fab  fa-github" id="b"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        
+    </header>
+    <main>
+        <div class="friend">
+            <img src="/friends/imges/girl.png" alt="Friend 1">
+            <h2>Atul Jamliya</h2>
+            <p>Birthday: 2 February</p>
+            <p>Interesting Point: Dil ka bhut safh hai , kebhi kese ka bura nhi sochta hai , or hemesha khush reheta hai matalab Dildar inshan hai. or mera bhut bhut acha Dost hai</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Arvind Kamliya</h2>
+            <p>Birthday: 26 July</p>
+            <p>Interesting Point:Mere sari baat sunta hai jese mere girlfriend hoo, hemesha mujhe motivate kerta hai, matalab ik Bade bhai ki trha hai , or dil ka safh hai ,like a Big brother!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </div><div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Satya (SP)</h2>
+            <p>Birthday: 2 February</p>
+            <p>Interesting Point:Mere liye to ik number inshan hai , hemesha help kerta hai, dil ka safh hai , dusro ke bare main bhut sochta hai , kese ko kebhi bura nhi lagne deta hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </div><div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Lokesh Ojha</h2>
+            <p>Birthday: 2 August</p>
+            <p>Interesting Point:Like a Mentor in my life , bhut acha insan hai , hemesha sebko sath leker chalta hai , kebhi kese ka bura nhi sochta hai , dildar banda hai!</p>
+            <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Ashvin Rawal</h2>
+            <p>Birthday: 10 June</p>
+            <p>Interesting Point:Bhai he to pandit per........., wese mere liye bhut acha ladka hai , kebhi kese baat ka bura nhi manta hai , hemesha khush reheta hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Bhupendra Ojha</h2>
+            <p>Birthday: 25 September</p>
+            <p>Interesting Point: Mitra hai acha ...  , hemesha masti ke mood main reheta hai, or sebko enjoy kerata hai , like a masti boy!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Ishwer Mandloi</h2>
+            <p>Birthday: 3 March</p>
+            <p>Interesting Point: Bhai ik tham samjhdar insha hai, Hemesha masti kerta reheta hai , jab bhi milta hai , mar kha ker jata hai , dil ka ik thaam sunder or safh hai , per bhut kuch sochta reheta hai! <p>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Gulshan Yadav</h2>
+            <p>Birthday: 1 March</p>
+            <p>Interesting Point: Acha ladka hai , pedai per focus kerta hai , achi soch rekhta hai , kese ko bura nhi bolta hai , or bhuht he samjhdar ladka hai !</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Akshat Yadav</h2>
+            <p>Birthday:  1 February/p>
+            <p>Interesting Point: Chota HOD , bhai badiya ladka hai , kabhi knowledge hai , bas thoda master banta hai , baki ladka badiya hai !</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Abhihsak </h2>
+            <p>Birthday: 8 February</p>
+            <p>Interesting Point: Bhai ik tham hero ladka hai , kabhi samjhdar hai , hemesha logo ko hasata hai , dil ka safh hai , or sunder bhi!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Tushar </h2>
+            <p>Birthday: January 1</p>
+            <p>Interesting Point: Ik tham life enjoying Boy hai , bhagwan ko bhut manta hai , kebhi kese ko bura nhi bolta hai , matalab acha ladka hai dil ka !</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Utkarsh</h2>
+            <p>Birthday: 18 October</p>
+            <p>Interesting Point: Matalab ki acha dost hai , jab ladai hogi to bachane nhi aayega ye pka hai , per jesa bhi hai , ladka badiya hai !</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Ayush</h2>
+            <p>Birthday: 27 May</p>
+            <p>Interesting Point: Satya ka acha dost hai per , hemesha sebke sath ache se reheta hai , dil ka safh hai , ik bar mere ladai hogye thii bhai se , per ab acha dost hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Sharma Ji</h2>
+            <p>Birthday: January 1</p>
+            <p>Interesting Point: Bhut hi ache admi hai , matalab kebhi kese ko bura bolna nhi or bura suna nhi , hemesha masti main khush rehena!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Shivam</h2>
+            <p>Birthday: 31 August</p>
+            <p>Interesting Point: Bhai sebse acha insan hai , time pass kerta hai per dil or dimak ka bhut he acha insan hai , matalab ik tham Hera hai Hera!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Rashi Barsker</h2>
+            <p>Birthday: 26 July</p>
+            <p>Interesting Point: Bhut cute ladki hai , kebhi kese se ladai nhi kerti , or hemesha dusre students ko padati hai , bhut achi or sunder ladki hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Mahak Tambre</h2>
+            <p>Birthday: 22 September</p>
+            <p>Interesting Point: Hamari class ki cute se bachii hai , pedne main IT Topper hai , hemesha first ati hai , or bhut achi ladki hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Shivangi Verma</h2>
+            <p>Birthday: 17 July</p>
+            <p>Interesting Point: Hamari class ka Debaa boleto Moti hai , per bhut achi hai kebhi kebhi ched jati hai per , ladki achi hai Moooti.........!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Sakshi Prajapat</h2>
+            <p>Birthday: 28 December</p>
+            <p>Interesting Point: Seruos or samjhdar ladki hai , hemesha pedai ke bare main sochti hai , kebhi kese se ladai nhi kerti , ot thodi emotional bhi hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Tanu Didi</h2>
+            <p>Birthday: 14 February</p>
+            <p>Interesting Point: Tanu Don didi hai , kese se nhi darti hai or hemesha her chej ke liye ready reheti hai , bhut achi or risk lene wali ladki hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Prakati</h2>
+            <p>Birthday: 26 July</p>
+            <p>Interesting Point: Achi ladaki hai , khush reheti hai , thodi pereshan reheti  hai per dil ki achi hai or kese se ladai nhi kerti hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Nandani</h2>
+            <p>Birthday: 9 August</p>
+            <p>Interesting Point: Pedaku ladki hai , knowledge bhut acha hai , or achi ladaki hai , ache se baat kerti hai , sebki sunti hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Khushi Verma</h2>
+            <p>Birthday: 7 June </p>
+            <p>Interesting Point: Hamari class ke choti se batki ladki hai , hemesha masti kerti reheti hai , mujhse or Satya se bhut chedti hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Manu</h2>
+            <p>Birthday: 17 March</p>
+            <p>Interesting Point: Manu bole to Nanda nagar ki Don hai , achi simple se sunder or safh ladki hai , mujhse ladti reheti hai , or sath main pedai ke lekur Seruos hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Khushboo</h2>
+            <p>Birthday: 23 June</p>
+            <p>Interesting Point: CS Department ki topper hai , sunder or knowledgeble hai , kafhi achai ladki hai , hemesha sebke sath ache se reheti hai , kebhi kese ko bura nhi bolti hai , or hemesha help kerti hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Tanvi</h2>
+            <p>Birthday: 2 Septamber</p>
+            <p>Interesting Point: Moon lover hai , achi sunder ladki hai , or dil ki ik tham safh hai , kebhi kese ka bura nhi sochti hai badiya ladaki hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Chanchal</h2>
+            <p>Birthday: 23 June</p>
+            <p>Interesting Point: Sagar bole to Don , badiya ladaki hai , sunder hai , cute hai , samjhdar hai , apne career ko leker Seruos hai , sebke sath ache se reheti hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="friend">
+            <img src="girl.png" alt="Friend 1">
+            <h2>Saloni</h2>
+            <p>Birthday: 1 August</p>
+            <p>Interesting Point: MakeUp Artisht hai , sunder hai or mere bhut bhut achi dost hai , bhut cute hai , or sath main samjhdar bhi hai , hemesha hasati hai!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <!-- Add more friends here -->
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Typed('.typed', {
+                strings: ["I'm a Software Engineer", "I'm a Freelancer", "I'm a Technical Trainer","I'm a Student ","I'm a Grafhics Designer"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true
+            });
+        });
+    </script>
+</body>
+</html>
