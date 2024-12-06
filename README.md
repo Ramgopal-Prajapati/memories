@@ -42,7 +42,8 @@ Because friendship is the greatest gift. This project is my way of sharing how g
 
 ---
 
-## 📸 How to Contribute  
+## 📸 How to Contribute  (It is only for my Friends , if you want to be my new friend then Welcome but , not clone directly this repo. )
+If you want to this code then please contect me on my page -- https://Ramgopal-prajapati.github.io/iammrengineer/
 If you’re one of my friends and want to update or add your info, feel free to:  
 1. Clone this repository.  
 2. Add your details to the markdown file.  
